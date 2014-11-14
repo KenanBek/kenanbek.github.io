@@ -1,6 +1,6 @@
 # Syntax
 
-Maecenas vestibulum, lacus et dignissim vehicula, purus metus iaculis nisi, id vestibulum quam dui ullamcorper ex. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Vivamus at varius neque. Cras ante nunc, venenatis in turpis eu, blandit mollis nisl. Sed congue diam ut mattis tincidunt. Suspendisse vehicula orci mattis, pellentesque tellus eget, auctor leo. Praesent in erat vehicula, lobortis sapien sed, pulvinar purus. Quisque et felis ligula. Cras feugiat cursus maximus. Vivamus viverra diam vel ligula venenatis, et fringilla nibh facilisis. Sed aliquam tellus eget ipsum aliquam, ac lacinia urna blandit. Proin vulputate turpis vel gravida sollicitudin.
+Presentation of Markdown elements.
 
 # Header 1 (#)
 
@@ -26,19 +26,29 @@ Cras ante nunc, venenatis in turpis eu, blandit mollis nisl. Sed congue diam ut 
 
 Cras ante nunc, venenatis in turpis eu, blandit mollis nisl. Sed congue diam ut mattis tincidunt. Suspendisse vehicula orci mattis, pellentesque tellus eget, auctor leo.
 
+### Italic
+
 *\*Italic\**
 
 Cras ante nunc, venenatis in turpis eu, blandit mollis nisl. Sed congue diam ut mattis tincidunt. Suspendisse vehicula orci mattis, pellentesque tellus eget, auctor leo.
 
+### Bold
+
 **\**Bold\****
 
 Cras ante nunc, venenatis in turpis eu, blandit mollis nisl. Sed congue diam ut mattis tincidunt. Suspendisse vehicula orci mattis, pellentesque tellus eget, auctor leo.
+
+### Link
 
 [Link](http://kenanbek.me)
 
 \[Link](http://kenanbek.me)
 
 Cras ante nunc, venenatis in turpis eu, blandit mollis nisl. Sed congue diam ut mattis tincidunt. Suspendisse vehicula orci mattis, pellentesque tellus eget, auctor leo.
+
+### Blockquotes
+
+> Maecenas vestibulum, lacus et dignissim vehicula, purus metus iaculis nisi, id vestibulum quam dui ullamcorper ex. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Vivamus at varius neque. Cras ante nunc, venenatis in turpis eu, blandit mollis nisl. Sed congue diam ut mattis tincidunt. Suspendisse vehicula orci mattis, pellentesque tellus eget, auctor leo. Praesent in erat vehicula, lobortis sapien sed, pulvinar purus. Quisque et felis ligula. Cras feugiat cursus maximus. Vivamus viverra diam vel ligula venenatis, et fringilla nibh facilisis. Sed aliquam tellus eget ipsum aliquam, ac lacinia urna blandit. Proin vulputate turpis vel gravida sollicitudin.
 
 # Additional elements
 

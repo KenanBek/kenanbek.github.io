@@ -42,6 +42,6 @@ Cras ante nunc, venenatis in turpis eu, blandit mollis nisl. Sed congue diam ut 
 
 ### Symbols
 
-:100: :1234: :point_up_2: :8ball: :rotating_light: :accept: :u5272: :metro: :sos: :chart: :vs: :customs: :clock1: :clock12: :clock1130: :clock6: :clock9: :clock30: :black_small_square:
+:100: :1234: :point_up_2: :8ball: :rotating_light: :accept: :u5272: :metro: :sos: :chart: :vs: :customs: :clock1: :clock12: :clock1130: :clock6: :clock9: :clock330: :black_small_square:
 
 Full list of symbols you can get [here](http://www.emoji-cheat-sheet.com).

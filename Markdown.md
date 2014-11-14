@@ -8,6 +8,10 @@ Maecenas vestibulum, lacus et dignissim vehicula, purus metus iaculis nisi, id v
 
 [Lorem ipsum](http://tapdoon.com)
 
-Symbols:
+# Additional
+
+**Symbols:**
 
 :100: :1234: :point_up_2: :8ball: :rotating_light: :accept:
+
+Full list of symbols you can get [here](http://www.emoji-cheat-sheet.com).

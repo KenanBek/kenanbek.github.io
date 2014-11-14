@@ -26,19 +26,17 @@ Cras ante nunc, venenatis in turpis eu, blandit mollis nisl. Sed congue diam ut 
 
 Cras ante nunc, venenatis in turpis eu, blandit mollis nisl. Sed congue diam ut mattis tincidunt. Suspendisse vehicula orci mattis, pellentesque tellus eget, auctor leo.
 
-####### Header 7
+*Italic*
 
 Cras ante nunc, venenatis in turpis eu, blandit mollis nisl. Sed congue diam ut mattis tincidunt. Suspendisse vehicula orci mattis, pellentesque tellus eget, auctor leo.
 
-######## Header 8
+**Bold**
 
 Cras ante nunc, venenatis in turpis eu, blandit mollis nisl. Sed congue diam ut mattis tincidunt. Suspendisse vehicula orci mattis, pellentesque tellus eget, auctor leo.
 
-*Lorem ipsum*
+[Link](http://kenanbek.me)
 
-**Lorem ipsum**
-
-[Lorem ipsum](http://tapdoon.com)
+Cras ante nunc, venenatis in turpis eu, blandit mollis nisl. Sed congue diam ut mattis tincidunt. Suspendisse vehicula orci mattis, pellentesque tellus eget, auctor leo.
 
 # Additional elements
 

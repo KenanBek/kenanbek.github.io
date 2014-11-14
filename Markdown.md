@@ -40,8 +40,6 @@ Cras ante nunc, venenatis in turpis eu, blandit mollis nisl. Sed congue diam ut 
 
 Cras ante nunc, venenatis in turpis eu, blandit mollis nisl. Sed congue diam ut mattis tincidunt. Suspendisse vehicula orci mattis, pellentesque tellus eget, auctor leo.
 
-Header \#
-
 # Additional elements
 
 ### Symbols

@@ -1,7 +1,7 @@
 Kenan Bek
 =========
 
-For more detailed information about me visit <http://kenanbek.me>.
+For more detailed information about me, please visit <http://kenanbek.me>.
 
 **Posts:**
 

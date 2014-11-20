@@ -1,6 +1,8 @@
 Kenan Bek
 =========
 
+<http://kenanbek.me>
+
 Personal blog.
 
 **Posts:**

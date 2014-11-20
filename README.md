@@ -1,9 +1,7 @@
 Kenan Bek
 =========
 
-<http://kenanbek.me>
-
-Personal blog.
+For more detailed information about me visit <http://kenanbek.me>.
 
 **Posts:**
 

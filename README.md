@@ -1,5 +1,5 @@
-Blog
-====
+Kenan Bek
+=========
 
 Personal blog.
 

@@ -1,10 +1,10 @@
 # User management
 
-**Important files**
+## Important files
 
 + /etc/group - list of group and its members
 
-**Commands**
+## Commands
 
 + lid
 

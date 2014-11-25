@@ -1,7 +1,7 @@
 # Important files
 
 + /etc/httpd/conf/httpd.conf - apache configuration
-+ /etc/my.conf - mysql configuration
++ /etc/my.cnf - mysql configuration
 + /etc/group - list of group and its members
 
 # Commands

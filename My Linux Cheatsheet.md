@@ -1,12 +1,12 @@
 # Permissions system
 
-### Permission symbols
+### Permissions
 
 + **r** read
 + **w** write
 + **x** execute
 
-### User symbols
+### User and Group
 
 + **u** the owner user
 + **g** the owner group

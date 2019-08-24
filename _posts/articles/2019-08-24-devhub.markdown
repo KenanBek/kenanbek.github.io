@@ -1,0 +1,13 @@
+---
+layout: article
+title:  "DevHub"
+date:   2019-08-24 23:34:00 +0200
+categories: Articles
+---
+## Project Structure
+
+- `devhub-be` - back-end
+- `devhub-be-api` - RESTful API layer for back-end
+- `devhub-fe` - front-end (generic placeholder, later shared components)
+- `devhub-fe-web` - front-end (React for web application)
+- `devhub-fe-mobile` - front-end (React Native for iOS and Android)

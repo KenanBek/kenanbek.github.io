@@ -4,4 +4,3 @@ title:  "TIL Today I Learned about Outside In Inside Out and Gang of Four"
 date:   2019-08-24 23:34:00 +0200
 categories: Posts
 ---
-

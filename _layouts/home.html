@@ -20,12 +20,12 @@ layout: default
             {% if post.layout == "link" %}
               <a href="{{ post.link }}" target="_blank">
                 <span class="post-meta">{{ post.date | date: date_format }}</span>
-                {{ post.title | escape }}
+                <span class="post-title2">{{ post.title | escape }}</span>
               </a>
             {% else %}
               <a href="{{ post.url | relative_url }}">
                 <span class="post-meta">{{ post.date | date: date_format }}</span>
-                {{ post.title | escape }}
+                <span class="post-title2">{{ post.title | escape }}</span>
               </a>
             {% endif %}
 

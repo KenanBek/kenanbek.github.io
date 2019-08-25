@@ -10,17 +10,17 @@ layout: default
   {{ content }}
 
   {%- if site.posts.size > 0 -%}
-    {% for category in site.categories reversed %}
+    {% for category in site.categories %}
       <h3>{{ category[0] }}</h3>
       <ul>
         {% for post in category[1] %}
           <li>
-            {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+            {%- assign date_format = site.minima.date_format | default: "%d-%m-%y" -%}
             
             {% if post.layout == "link" %}
               <a href="{{ post.link }}" target="_blank">
                 <span class="post-meta">{{ post.date | date: date_format }}</span>
-                [{{ post.target }}] {{ post.title | escape }}
+                {{ post.title | escape }}
               </a>
             {% else %}
               <a href="{{ post.url | relative_url }}">

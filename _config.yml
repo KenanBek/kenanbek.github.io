@@ -16,14 +16,15 @@
 title: Kanan Rahimov (KenanBek)
 email: mrkenanbek@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Software Engineering Blog. Senior Software Engineer. Author @CoderVlogger
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Software Engineer. Author <a href="https://youtube.com/CoderVlogger">@CoderVlogger</a>.
+  Interested in data intensive applications, Data Processing, Analzye and Visualization.
+  Big fan of Cloud Computing, Kubernetes and Distributed Systems.
+  Main programming languages - Python, Golang and JavaScript.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "kenanbek.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: CoderVlogger
 github_username:  KenanBek
+youtube_username: CoderVlogger
+linkedin_username: KananRahimov
 
 # Build settings
 markdown: kramdown

@@ -4,5 +4,5 @@ title:  "Python Mentorship 2.0"
 date:   2019-04-05 20:25:20 +0200
 categories: Highlighted
 link: http://codervlogger.com/python-mentorship/
-target: Medium
+target: CoderVlogger
 ---

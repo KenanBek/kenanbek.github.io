@@ -20,7 +20,7 @@ layout: default
             {% if post.layout == "link" %}
               <a href="{{ post.link }}" target="_blank">
                 <span class="post-meta">{{ post.date | date: date_format }}</span>
-                <span class="post-title2">{{ post.title | escape }}</span>
+                <span class="post-title2">{{ post.title | escape }} ({{ post.target }})</span>
               </a>
             {% else %}
               <a href="{{ post.url | relative_url }}">

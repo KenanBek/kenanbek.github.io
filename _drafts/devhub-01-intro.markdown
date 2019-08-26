@@ -2,7 +2,8 @@
 layout: article
 title:  "DevHub "
 date:   2019-08-24 23:34:00 +0200
-categories: Articles
+categories: Posts
+tags: [devhub, search engine, project structure, golang, python, javascript, front-end, back-end, design, concept]
 ---
 
 **DevHub** is aimed to be search engine for nerds. It's bank of technical links indexed, weighted and organized for all kind of nerds. You can search, share and communicate around the link.

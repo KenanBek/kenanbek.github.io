@@ -2,8 +2,8 @@
 layout: article
 title:  "DevHub PoC (Prove of Concept)"
 date:   2019-08-24 23:34:00 +0200
-categories: Posts
-tags: [devhub, poc, project structure, proof of concept]
+categories: DevHub
+tags: [poc, proof of concept, devhub, search engine, project structure, golang, python, javascript, front-end, back-end, design, concept, react, react-native, expo]
 ---
 
 *In the beginning there are was a PoC.*
@@ -16,22 +16,12 @@ As a PoC we will be designing a very simple but working example of the desired a
 
 We are going to parse following URLs (which are software engineering blog) and extract URLs to articles. Here are list of the source links:
 
-- https://labs.spotify.com/
-- https://www.twilio.com/blog/
 - https://hacks.mozilla.org
 - https://engineering.linkedin.com
 - https://code.fb.com/
 - https://github.blog/
-- https://eng.uber.com/
-- https://medium.com/airbnb-engineering
-- https://labs.spotify.com/
-- https://blog.booking.com/
-- https://blog.cloudera.com/
-- https://medium.com/@Pinterest_Engineering
-- https://news.ycombinator.com/
-- http://highscalability.com/
-- https://machinelearningmastery.com/blog/
-- https://open.buffer.com/
+
+Full list: https://github.com/CoderVlogger/devhub/wiki/Initial-Source-Links
 
 Initial version of parser will be static. That means that we will have predefined rules to define is the given link an article or something else, like category links or about page. Example with pseudocode:
 
@@ -42,7 +32,7 @@ isArticle('https://example.com/about') # should return False
 
 To make a decision about which link is article and which are not we will keep JSON file with all rules for all source websites.
 
-```
+``` 
 [{
     "website": "http://highscalability.com/",
     "article_regex": "<post regex for highscalability.com>"

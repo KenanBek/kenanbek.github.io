@@ -1,6 +1,6 @@
 ---
 layout: article
-title:  "Fluent in Golang, Python, JavaScript"
+title:  "What I understand when people say "Fulstack" Fluent in Golang, Python, JavaScript"
 date:   2019-08-24 23:16:12 +0200
 categories: Posts
 tags: [golang, python, javascript, programming languages, learn, syntax]
@@ -8,7 +8,9 @@ tags: [golang, python, javascript, programming languages, learn, syntax]
 
 Personally, as a human, I am fluent in 4 human langauges: English, Russian, Turkish and Azerbaijani. I am able to explain want I mean to another human being.
 
-Also, I am a nerd and love programming. So, my goal is to be fluent also in programming languages: Golang, Python and JavaScript.
+Also, I am a nerd and love programming. So, my goal is to be fluent also in programming languages. These languages are: Golang, Python and JavaScript.
+
+Actually my final goal also includes C++ and Rust. But, as you could imagine 3 languages 
 
 Before we dive into details of how, let's clarify the following points:
 

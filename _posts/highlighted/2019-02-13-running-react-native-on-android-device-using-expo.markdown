@@ -1,5 +1,6 @@
 ---
 layout: link
+sitemap: false
 title:  "Running React Native on Android device using Expo [DevSession - React Native Tutorial]"
 date:   2019-02-13 21:18:13 +0200
 categories: Highlighted

@@ -109,4 +109,4 @@ As you can see for each technology we have *devhub* as a root folder. This is do
 
 ## Next
 
-Checkout Wiki of DevHub repository for detailed information on the features of Version 1.
+Checkout Wiki of DevHub repository for detailed information on the features of [Version 1](https://github.com/CoderVlogger/devhub/wiki/Backlog-for-Version-1).

@@ -25,6 +25,8 @@ url: "https://kenanbek.github.io" # the base hostname & protocol for your site, 
 github_username:  KenanBek
 youtube_username: CoderVlogger
 linkedin_username: KananRahimov
+disqus:
+  shortname: KenanBek
 
 # Integrations
 google_analytics: UA-146569830-1

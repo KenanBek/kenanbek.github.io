@@ -1,13 +1,15 @@
 ---
-layout: post
+layout: article
+permalink: /devhub-real-world-project-go-python-javascript-react
 title: "DevHub - real-world project with Go, Python and JavaScript (React)"
 date: 2019-09-13 10:44:00 +0200
 lastmod: 2019-09-13 13:38:00 +0200
-categories: DevHub
+categories: DevHub Posts
 tags: [devhub, search engine, project structure, golang, python, javascript, front-end, back-end, design, concept, react, react-native, expo]
 sitemap:
     priority: 1
     changefreq: weekly
+comments: true
 todo: [
     "monorepo",
     "add links (github, video1)"

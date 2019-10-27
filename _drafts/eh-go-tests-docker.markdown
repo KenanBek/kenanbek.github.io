@@ -1,9 +1,18 @@
 ---
 layout: article
+permalink: /golang-docker-tests
 title:  "Use Docker for Golang tests"
 date:   2019-10-25 13:07:00 +0200
-categories: Posts
+lastmod: 2019-10-27 18:58:00 +0200
+categories: Golang
 tags: [go, docker, tests]
+sitemap:
+    priority: 1
+    changefreq: weekly
+comments: true
+todo: [
+    "finish source code",
+]
 ---
 
 Use Docker for Golang tests
@@ -20,6 +29,8 @@ First usage is straitforwad and commonly used. We can apply the same technics to
 Second aproach usualy involves an external package. It's very useful when you have external dependencies like database or 3rd party service.
 
 It's quite easy to run Go application within Docker. Let's imagine we have an application with `cmd/main.go` as a entry point. Dockerfile will look like this:
+
+Please note that when we execute
 
 1. Run Golang application as a Docker container
 

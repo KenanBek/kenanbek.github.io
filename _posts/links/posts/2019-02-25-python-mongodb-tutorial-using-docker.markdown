@@ -1,5 +1,6 @@
 ---
 layout: link
+sitemap: false
 title:  "Python MongoDB Tutorial using Docker"
 date:   2019-02-25 19:25:18 +0200
 categories: Posts

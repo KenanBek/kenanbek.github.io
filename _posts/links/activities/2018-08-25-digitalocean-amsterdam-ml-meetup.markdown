@@ -1,5 +1,6 @@
 ---
 layout: link
+sitemap: false
 title:  "DigitalOcean Amsterdam: August edition - Machine Learning"
 date: 2018-08-25 23:30:00 +0200
 categories: Activities

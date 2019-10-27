@@ -1,5 +1,6 @@
 ---
 layout: link
+sitemap: false
 title:  "Continuous Delivery, Monitoring and Control your AWS stacks by AWS Amsterdam"
 date: 2018-06-27 14:13:18 +0200
 categories: Activities

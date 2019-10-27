@@ -8,7 +8,12 @@ layout: default
     <p class="post-meta">
       <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
         {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-        {{ page.date | date: date_format }}
+        Published: {{ page.date | date: date_format }}
+      </time>
+      <span>/</span>
+      <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="dateModified">
+        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+        Last modified: {{ page.lastmod | date: date_format }}
       </time>
       {%- if page.author -%}
         • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">{{ page.author }}</span></span>
@@ -26,12 +31,10 @@ layout: default
   <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
 
   <div class="tags">
-    <h3>Tags</h3>
+    <h3>[ Tags ]</h3>
     <div>
-      {% for tag in site.tags %}
-        {% assign t = tag | first %}
-        {% assign posts = tag | last %}
-        <span>{{t | downcase | replace:" ","-" }}</span>
+      {% for tag in page.tags %}
+        <span>{{ tag }}</span>
       {% endfor %}
     </div>
   </div>

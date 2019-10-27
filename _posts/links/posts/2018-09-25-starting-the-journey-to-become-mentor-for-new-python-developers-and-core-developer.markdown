@@ -1,5 +1,6 @@
 ---
 layout: link
+sitemap: false
 title:  "Starting the journey to become Mentor for new Python developers and Core Developer for Python/CPython"
 date:   2018-09-25 02:27:58 +0200
 categories: Posts

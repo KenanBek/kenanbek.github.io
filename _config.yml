@@ -21,16 +21,22 @@ description: >- # this means to ignore newlines until "baseurl:"
   Big fan of Cloud Computing, Kubernetes and Distributed Systems.
   Main programming languages - Python, Golang and JavaScript.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "kenanbek.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://kenanbek.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  KenanBek
 youtube_username: CoderVlogger
 linkedin_username: KananRahimov
+disqus:
+  shortname: KenanBek
+
+# Integrations
+google_analytics: UA-146569830-1
 
 # Build settings
 markdown: kramdown
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-octicons
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

@@ -1,5 +1,6 @@
 ---
 layout: link
+sitemap: false
 title:  "Configure Docker Compose startup order for Django, REST Framework and Celery/RabbitMQ/Redis application"
 date:   2018-04-02 13:22:32 +0200
 categories: Posts

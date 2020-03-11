@@ -8,8 +8,15 @@ sitemap:
     lastmod: 2019-09-13 13:33:00 +0200
 ---
 
-Hello! Welcome to my blog. As you can see I do not have very detailed About page, it is in progress...:)
+Hello, world! My name is Kanan Rahimov, and I am a backend engineer. Go and Python are my primary programming languages, and I worked on projects from Aeronautical Data Management to online payment platforms and backend services for telecoms.
 
-For now, if you need more information about me you can check the link in the footer.
+In my free time, I am involved in various tech-related activities, like:
 
-Have a great day and happy coding!
+Helping or leading Go, Python, and React related Open Source projects:
+
+[https://github.com/KenanBek/](https://github.com/KenanBek/)
+
+Creating articles and video tutorials on various tech-related topics:
+
+- [https://medium.com/@kenanbek](https://medium.com/@kenanbek)
+- [https://youtube.com/CoderVlogger](https://youtube.com/CoderVlogger)

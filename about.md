@@ -5,7 +5,7 @@ permalink: /about/
 sitemap:
     priority: 1
     changefreq: 'weekly'
-    lastmod: 2019-09-13 13:33:00 +0200
+    lastmod: 2020-09-13 13:33:00 +0200
 ---
 
 Hello, world! My name is Kanan Rahimov, and I am a backend engineer. Go and Python are my primary programming languages, and I worked on projects from Aeronautical Data Management to online payment platforms and backend services for telecoms.

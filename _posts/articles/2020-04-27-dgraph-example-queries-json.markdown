@@ -24,7 +24,7 @@ Follow [this](https://dgraph.io/tour/intro/3/) and [this](https://dgraph.io/tour
 
 For more information on Dgraph.io and it's usage with Go check my another article called ["Dgraph Graph Database: How to Install and Use With Go?"](https://medium.com/@kenanbek/dgraph-how-to-install-and-use-with-go-e25e2fe90939?sk=aa23028c966ad45c1d31111ed8b0fb24).
 
-### Find by name
+### Query #1: find by name
 
 ```
 {
@@ -36,7 +36,7 @@ For more information on Dgraph.io and it's usage with Go check my another articl
 }
 ```
 
-### Query by name and show related edges
+### Query #2: get by name and show related edges
 
 ```
 {
@@ -53,7 +53,7 @@ For more information on Dgraph.io and it's usage with Go check my another articl
 }
 ```
 
-### Query schema information
+### Query #3: get schema information
 
 ```
 schema(pred: [name, age, friend, owns_pet]) {
@@ -64,7 +64,7 @@ schema(pred: [name, age, friend, owns_pet]) {
 
 By adding `type` and `index` in body we request to include type and index information about the scheme in the response.
 
-### Query by annotated language tag
+### Query #4: get by annotated language tag
 
 ```
 {

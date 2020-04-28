@@ -3,7 +3,7 @@ layout: article
 permalink: /dgraph-example-queries-json
 title: "Dgraph Example Queries"
 date: 2020-04-27 21:23:00 +0200
-lastmod: 2020-04-27 21:23:00 +0200
+lastmod: 2020-04-28 02:49:00 +0200
 categories: Posts
 tags: [graph, graph database, dgraph, query, json, example, tutorial]
 sitemap:
@@ -80,3 +80,25 @@ By adding `type` and `index` in body we request to include type and index inform
 ```
 
 Syntax `name@bn:hi:en` specifies an order preference in which name field must be returned. More information [here](https://dgraph.io/tour/basic/4/#).
+
+### Query #5: get all nodes count by a specific field name
+
+```
+{
+  nodeCount(func: has(<message>)) {
+    nodeCount: count(uid)
+  }
+}
+```
+
+### Query #6: get all nodes related to a specific type
+
+```
+{
+    q(func: type(Log)) {
+      uid
+      created
+    	message
+    }
+}
+```

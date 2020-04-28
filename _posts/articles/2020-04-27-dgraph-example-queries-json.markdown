@@ -13,7 +13,7 @@ comments: true
 todo: []
 ---
 
-## Dgraph Example Queries
+## Dgraph Example Queries (JSON)
 
 Hello, coders! In this page I've gather different Dgraph example queries.
 

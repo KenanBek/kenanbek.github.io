@@ -3,7 +3,7 @@ layout: article
 permalink: /dgraph-example-queries-json
 title: "Dgraph Example Queries"
 date: 2020-04-27 21:23:00 +0200
-lastmod: 2020-04-28 02:49:00 +0200
+lastmod: 2020-05-03 11:50:00 +0200
 categories: Posts
 tags: [graph, graph database, dgraph, query, json, example, tutorial]
 sitemap:
@@ -102,3 +102,19 @@ Syntax `name@bn:hi:en` specifies an order preference in which name field must be
     }
 }
 ```
+
+### Query #7: query and filter by field's type
+
+```
+{
+  q(func: has(parent)) {
+    uid
+    parent @filter(type(Person)) {
+      uid
+      name
+    }
+  }
+}
+```
+
+Check [source](https://dgraph.io/docs/query-language/#using-types-during-queries) for more information.

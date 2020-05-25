@@ -3,7 +3,7 @@ layout: article
 permalink: /github-api-go-examples
 title: "Go GitHub API code snippets and examples"
 date: 2020-05-25 23:49:00 +0200
-date: 2020-05-25 23:49:00 +0200
+lastmod: 2020-05-25 23:57:00 +0200
 categories: Posts
 tags: [github, api, library, examples, snippets, go, golang]
 sitemap:

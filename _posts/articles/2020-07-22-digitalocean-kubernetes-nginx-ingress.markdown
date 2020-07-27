@@ -3,7 +3,7 @@ layout: article
 permalink: /digitalocean-kubernetes-nginx-ingress
 title: "NGINX Ingress confiugration for DigitialOcean K8S Cluster"
 date: 2020-07-22 23:06:00 +0200
-lastmod: 2020-07-22 23:06:00 +0200
+lastmod: 2020-07-27 23:24:00 +0200
 categories: Posts
 tags: [k8s, kubernetes, nginx, ingress, service, configuraiton]
 sitemap:
@@ -15,13 +15,17 @@ todo: []
 
 NGINX Ingress configuration for DigitalOcean's k8s cluster.
 
-# Install nginx-ingress
+
+![NGINX Ingress Controller](/assets/posts/nginx-ingress.png)
+
+
+### Step 1: Install nginx-ingress
 
 ```
 helm install nginx-ingress stable/nginx-ingress --set service.type=LoadBalancer --namespace <YOUR_NAMESPACE>
 ```
 
-# Ingress configuration
+### Step 2: Ingress configuration
 
 ```
 apiVersion: networking.k8s.io/v1beta1
@@ -56,7 +60,7 @@ spec:
             servicePort: 8082
 ```
 
-# Service configuration
+# Step 3: Service configuration
 
 ```
 apiVersion: v1  
@@ -76,3 +80,8 @@ spec:
     port: 8082
     targetPort: 8082
 ```
+
+### References
+
+- [NGINX Ingress Controller for Kubernetes](https://www.nginx.com/products/nginx/kubernetes-ingress-controller/)
+- [More detailed and official documentation from DigitalOcean](https://www.digitalocean.com/community/tutorials/how-to-set-up-an-nginx-ingress-on-digitalocean-kubernetes-using-helm)

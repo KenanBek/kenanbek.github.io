@@ -1,0 +1,116 @@
+---
+layout: article
+permalink: /kubernetes-https-nginx-ingress-cert-manager-digitalocean
+title: "How to setup HTTPS for Kubernetes using NGINX Ingress and with Cert-Manager on DigitalOcean"
+date: 2020-07-27 20:20:00 +0200
+lastmod: 2020-07-27 20:20:00 +0200
+categories: Posts
+tags: [k8s, kubernetes, nginx, ingress, cert-manager, https, tls]
+sitemap:
+    priority: 1
+    changefreq: weekly
+comments: true
+todo: []
+---
+
+
+
+### Step 1: Create a namespace
+
+```
+kubectl create namespace cert-manager
+```
+
+### Step 2: Install cert-manager
+
+```
+kubectl apply --validate=false -f https://github.com/jetstack/cert-manager/releases/download/v0.12.0/cert-manager.yaml
+```
+
+### Step 3: Create a certificate issuer
+
+```
+apiVersion: cert-manager.io/v1alpha2
+kind: ClusterIssuer
+metadata:
+  name: letsencrypt-prod
+  namespace: cert-manager
+spec:
+  acme:
+    # The ACME server URL
+    server: https://acme-v02.api.letsencrypt.org/directory
+    # Email address used for ACME registration
+    email: mrkenanbek@gmail.com
+    # Name of a secret used to store the ACME account private key
+    privateKeySecretRef:
+      name: letsencrypt-prod
+    # Enable the HTTP-01 challenge provider
+    solvers:
+    - http01:
+        ingress:
+          class: nginx
+
+```
+
+and apply changes:
+
+```
+kubectl apply -f k8s/codekn-cert-issuer.yaml
+```
+
+### Step 4: Update ingress configuration
+
+```
+apiVersion: networking.k8s.io/v1beta1
+kind: Ingress
+metadata:
+  name: codekn-ingress
+  annotations:
+    kubernetes.io/ingress.class: "nginx"
+    nginx.ingress.kubernetes.io/rewrite-target: /
+    cert-manager.io/cluster-issuer: "letsencrypt-prod"
+spec:
+  tls:
+  - hosts:
+      - codekn.com
+    secretName: codekn-tls
+  rules:
+  - host: codekn.com
+    http:
+      paths:
+      - path: /
+        backend:
+          serviceName: codekn-service
+          servicePort: 8081
+      - path: /api
+        backend:
+          serviceName: codekn-service
+          servicePort: 8082
+  - host: dev.codekn.com
+    http:
+      paths:
+        - path: /
+          backend:
+            serviceName: codekn-service
+            servicePort: 8082
+        - path: /api
+          backend:
+            serviceName: codekn-service
+            servicePort: 8082
+```
+
+with corresponding apply command:
+
+```
+kubectl apply -f k8s/codekn-ingress.yaml
+```
+
+and to check the certificate:
+
+```
+kubectl describe certificate
+```
+
+### References
+
+Check [this](https://www.digitalocean.com/community/tutorials/how-to-set-up-an-nginx-ingress-with-cert-manager-on-digitalocean-kubernetes) for more detailed version of this article.

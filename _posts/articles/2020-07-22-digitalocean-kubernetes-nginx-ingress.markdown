@@ -2,6 +2,7 @@
 layout: article
 permalink: /digitalocean-kubernetes-nginx-ingress
 title: "NGINX Ingress confiugration for DigitialOcean K8S Cluster"
+image: /assets/posts/nginx-ingress.png
 date: 2020-07-22 23:06:00 +0200
 lastmod: 2020-07-27 23:24:00 +0200
 categories: Posts

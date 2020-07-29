@@ -10,7 +10,9 @@ sitemap:
 
 Hello, world! My name is Kanan Rahimov, and I am a backend engineer. Go, and Python are my primary programming languages, and I worked on projects from Aeronautical Data Management to online payment platforms.
 
-Currently, I work at Beat as an Engineering Team Lead of one of the backend team in the pricing domain.
+I live and work in Amsterdam, The Netherlands.
+
+Currently, I work at [Beat](https://www.linkedin.com/company/thebeatapp/) as an Engineering Team Lead of one of the backend teams in the Pricing domain.
 
 In my free time, I am involved in various engineering-related activities. You can follow me on my Twitter and GitHub account for the recent updates:
 

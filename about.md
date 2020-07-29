@@ -5,18 +5,19 @@ permalink: /about/
 sitemap:
     priority: 1
     changefreq: 'weekly'
-    lastmod: 2020-09-13 13:33:00 +0200
+    lastmod: 2020-07-29 17:50:00 +0200
 ---
 
-Hello, world! My name is Kanan Rahimov, and I am a backend engineer. Go and Python are my primary programming languages, and I worked on projects from Aeronautical Data Management to online payment platforms and backend services for telecoms.
+Hello, world! My name is Kanan Rahimov, and I am a backend engineer. Go, and Python are my primary programming languages, and I worked on projects from Aeronautical Data Management to online payment platforms.
 
-In my free time, I am involved in various tech-related activities, like:
+Currently, I work at Beat as an Engineering Team Lead of one of the backend team in the pricing domain.
 
-Helping or leading Go, Python, and React related Open Source projects:
+In my free time, I am involved in various engineering-related activities. You can follow me on my Twitter and GitHub account for the recent updates:
 
-[https://github.com/KenanBek/](https://github.com/KenanBek/)
+- [https://twitter.com/KananRahimovCOM](https://twitter.com/KananRahimovCOM)
+- [https://github.com/KenanBek/](https://github.com/KenanBek/)
 
-Creating articles and video tutorials on various tech-related topics:
+When I have the motivation, time, and idea, I love writing articles and creating video tutorials:
 
 - [https://medium.com/@kenanbek](https://medium.com/@kenanbek)
 - [https://youtube.com/CoderVlogger](https://youtube.com/CoderVlogger)

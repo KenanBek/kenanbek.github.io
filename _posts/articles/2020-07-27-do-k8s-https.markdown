@@ -2,6 +2,7 @@
 layout: article
 permalink: /kubernetes-https-nginx-ingress-cert-manager-digitalocean
 title: "How to setup HTTPS for Kubernetes using NGINX Ingress and with Cert-Manager on DigitalOcean"
+image: /assets/posts/k8s-tls.png
 date: 2020-07-27 20:20:00 +0200
 lastmod: 2020-07-27 20:20:00 +0200
 categories: Posts
@@ -13,7 +14,9 @@ comments: true
 todo: []
 ---
 
+Step by step guide to configure TLS certificate issuer using Let's Encrypt on a kubernetes cluster. As an example I use [DigitalOcean's](https://www.digitalocean.com/products/kubernetes/) managed kubernetes cluster. In this [post](https://kenanbek.github.io/digitalocean-kubernetes-nginx-ingress) you can find instructions on how to configure NGINX ingress controller.
 
+![NGINX Ingress Controller](/assets/posts/k8s-tls.png)
 
 ### Step 1: Create a namespace
 
@@ -114,3 +117,8 @@ kubectl describe certificate
 ### References
 
 Check [this](https://www.digitalocean.com/community/tutorials/how-to-set-up-an-nginx-ingress-with-cert-manager-on-digitalocean-kubernetes) for more detailed version of this article.
+
+Other resources:
+
+- [NGINX Ingress Controller - TLS/HTTPS](https://kubernetes.github.io/ingress-nginx/user-guide/tls/#tlshttps)
+- [Automatic TSL Certificates signed by Let's Encrypt](Automatic TLS Certificates signed by Let’s Encrypt)

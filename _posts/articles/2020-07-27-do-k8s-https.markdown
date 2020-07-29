@@ -4,7 +4,7 @@ permalink: /kubernetes-https-nginx-ingress-cert-manager-digitalocean
 title: "How to setup HTTPS for Kubernetes using NGINX Ingress and with Cert-Manager on DigitalOcean"
 image: /assets/posts/k8s-tls.jpg
 date: 2020-07-27 20:20:00 +0200
-lastmod: 2020-07-27 20:20:00 +0200
+lastmod: 2020-07-29 17:30:00 +0200
 categories: Posts
 tags: [k8s, kubernetes, nginx, ingress, cert-manager, https, tls]
 sitemap:

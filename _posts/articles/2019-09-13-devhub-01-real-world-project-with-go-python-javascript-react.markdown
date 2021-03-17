@@ -5,6 +5,7 @@ title: "DevHub - real-world project with Go, Python and JavaScript (React)"
 date: 2019-09-13 10:44:00 +0200
 lastmod: 2019-09-13 13:38:00 +0200
 categories: Posts
+categories: [1. Highlighted Posts]
 tags: [devhub, search engine, project structure, golang, python, javascript, front-end, back-end, design, concept, react, react-native, expo]
 sitemap:
     priority: 1

@@ -16,10 +16,11 @@ Currently, I work at [Beat](https://www.linkedin.com/company/thebeatapp/) as an 
 
 In my free time, I am involved in various engineering-related activities. You can follow me on my Twitter and GitHub account for the recent updates:
 
-- [https://twitter.com/KananRahimovCOM](https://twitter.com/KananRahimovCOM)
 - [https://github.com/KenanBek/](https://github.com/KenanBek/)
+- [https://twitter.com/KenanBekk](https://twitter.com/KenanBekk)
 
 When I have the motivation, time, and idea, I love writing articles and creating video tutorials:
 
-- [https://medium.com/@kenanbek](https://medium.com/@kenanbek)
+- [https://kenanbek.medium.com/](https://medium.com/@kenanbek)
+- [https://kananrahimov.com/](https://kananrahimov.com/)
 - [https://youtube.com/CoderVlogger](https://youtube.com/CoderVlogger)

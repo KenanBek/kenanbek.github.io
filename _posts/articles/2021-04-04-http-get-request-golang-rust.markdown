@@ -52,7 +52,7 @@ func main() {
 
 ### Rust implementation
 
-For the rust implementaiton, I am going to use `reqwest` package. That's why we need to initialize a project environment using following commands:
+For the Rust implementation, I am going to use `reqwest` package. That’s why we need to initialize a project environment using the following commands:
 
 ```bash
 cargo init

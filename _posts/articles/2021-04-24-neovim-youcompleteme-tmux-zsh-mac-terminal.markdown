@@ -30,7 +30,7 @@ After some search that's what fixed the issue for me.
     :YcmRestartServer
 
 My setup is:
-    MacOS
-    MacOS Terminal
-    zsh + oh my zsh + tmux
-    neovim
+- MacOS
+- MacOS Terminal
+- zsh + oh my zsh + tmux
+- neovim

@@ -17,7 +17,7 @@ This code snippet is part of my local repository for demo and simple application
 
 There are many ways to implement a simple HTTP Get in each language. Since I already have Golang experience, the code in Go took me a few minutes.
 
-My initial goal for the Rust code was to write an HTTP Get using only the standard library. But surprisingly, the Rust code took me at least one hour, where at the end, I just took the code from the `reqwest` package and just simplified it for the text response.
+My initial goal for the Rust code was to write an HTTP Get using only the standard library. But surprisingly, the Rust code took me at least one hour, where at the end, I just took the code from the `reqwest` package and simplified it for the text response.
 
 ### Go implementation
 

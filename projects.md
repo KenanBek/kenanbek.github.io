@@ -14,6 +14,14 @@ List of some of my publicly available projects.
 
 ---
 
+### dbui
+
+Database CLI for MySQL and PostgreSQL. More databases to come. Terminal User Interface Application.
+
+Check on [GitHub](https://github.com/kenanbek/dbui).
+
+---
+
 ### GoModCtl
 
 Go command-line tool. Search, Check and Update Go modules.

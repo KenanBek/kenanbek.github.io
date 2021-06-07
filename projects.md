@@ -5,7 +5,7 @@ permalink: /projects/
 sitemap:
     priority: 1
     changefreq: 'weekly'
-    lastmod: 2021-03-17 23:51:15 +0200
+    lastmod: 2021-06-08 00:58:11 +0200
 ---
 
 ```

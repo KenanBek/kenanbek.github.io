@@ -175,6 +175,14 @@
 /**
  * Page content
  */
+.home-subscribe {
+  margin-top: 50px;
+  margin-bottom: 5px;
+
+  h3 {
+    border-bottom: 0.1em solid #6ab2ce;
+  }
+}
 .page-content {
   padding: $spacing-unit 0;
   flex: 1;

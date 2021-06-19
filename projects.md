@@ -40,8 +40,12 @@ Check [website](https://codekn.com).
 
 ### CoderVlogger
 
-I started the CoderVlogger YouTube channel to talk about tech in English and improve my speaking skills. You can find videos about Python, Go, Kubernetes. I also have some videos about React Native, Expo, and Flutter.
+CoderVlogger is my YouTube channel where I post videos about software engineering. Initially, I started it to improve my speaking and presenting skills, especially in English.
 
-Check [YouTube](https://youtube.com/codervlogger).
+Since my first video, the channel has grown, and I have tried multiple formats. At the moment, I am more interested in live coding sessions working with technologies like Go, Open-Source, Kubernetes, React Native, Flutter, and Next.js.
+
+As you can see, there is a pretty broad range of technologies. So basically, my channel now reflects my current interest in software engineering. And that's what keeps it going.
+
+Check [YouTube](https://youtube.com/codervlogger) and [Website](https://kenanbek.gitbook.io/codervlogger/).
 
 ---

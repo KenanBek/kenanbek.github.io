@@ -16,7 +16,7 @@ List of some of my publicly available projects.
 
 ### dbui
 
-Database CLI for MySQL and PostgreSQL. More databases to come. Terminal User Interface Application.
+Universal Database CLI for MySQL, PostgreSQL, SQLite. Terminal User Interface Application.
 
 Check on [GitHub](https://github.com/kenanbek/dbui).
 
@@ -49,3 +49,4 @@ As you can see, there is a pretty broad range of technologies. So basically, my 
 Check [YouTube](https://youtube.com/codervlogger) and [Website](https://kenanbek.gitbook.io/codervlogger/).
 
 ---
+

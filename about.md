@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About Kanan Rahimov aka @KenanBek
+title: About
 permalink: /about/
 sitemap:
     priority: 1

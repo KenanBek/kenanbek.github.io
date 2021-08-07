@@ -1,4 +1,3 @@
-
 ---
 layout: article
 permalink: /golang-web-api-project-layout-and-demo-app

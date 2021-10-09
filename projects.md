@@ -5,7 +5,7 @@ permalink: /projects/
 sitemap:
     priority: 1
     changefreq: 'weekly'
-    lastmod: 2021-06-08 00:58:11 +0200
+    lastmod: 2021-10-09 13:59:21 +0200
 ---
 
 ```
@@ -34,7 +34,7 @@ Check on [GitHub](https://github.com/beatlabs/gomodctl).
 
 CodeKN started as an experiment to learn more about Kubernetes, Golang, and distributed systems. Now, it contains a website and backend system. BE is responsible for fetching web pages, parsing them, and categorizing them. I also had a chance to try a very simple Machine Learning model to identify the article's topic. Everything runs on managed Kubernetes. I use MySQL as persistent storage.
 
-Check [website](https://codekn.com).
+The website is out of service now, but you can check some of my coding sessions recorded for this project [on YouTube](https://www.youtube.com/watch?v=G7SBHyoMJ3Y&list=PLxa49UnOmIzqo9FJFweZdzlft10-OkiDt) if you are interested.
 
 ---
 

@@ -16,7 +16,7 @@
 title: Kanan Rahimov (KenanBek)
 email: mrkenanbek@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Golang Software Engineer. Currently working as Software Engineering Manager at Beat. Interested in Go, Distributed Systems, and Open Source. Additionally, I like learning more about Rust, Flutter, and React Native.
+  Golang Software Engineer. Currently working as Sr. Staff Software Engineer at Beat. I am interested in Go, Distributed Systems, Dev Tools, and Open Source. Additionally, I like learning more about Rust, Flutter, and React Native.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://kenanbek.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  KenanBek

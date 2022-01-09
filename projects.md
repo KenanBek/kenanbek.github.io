@@ -30,14 +30,6 @@ Check on [GitHub](https://github.com/beatlabs/gomodctl).
 
 ---
 
-### CodeKN.com
-
-CodeKN started as an experiment to learn more about Kubernetes, Golang, and distributed systems. Now, it contains a website and backend system. BE is responsible for fetching web pages, parsing them, and categorizing them. I also had a chance to try a very simple Machine Learning model to identify the article's topic. Everything runs on managed Kubernetes. I use MySQL as persistent storage.
-
-The website is out of service now, but you can check some of my coding sessions recorded for this project [on YouTube](https://www.youtube.com/watch?v=G7SBHyoMJ3Y&list=PLxa49UnOmIzqo9FJFweZdzlft10-OkiDt) if you are interested.
-
----
-
 ### CoderVlogger
 
 CoderVlogger is my YouTube channel where I post videos about software engineering. Initially, I started it to improve my speaking and presenting skills, especially in English.
@@ -46,7 +38,14 @@ Since my first video, the channel has grown, and I have tried multiple formats. 
 
 As you can see, there is a pretty broad range of technologies. So basically, my channel now reflects my current interest in software engineering. And that's what keeps it going.
 
-Check [YouTube](https://youtube.com/codervlogger) and [Website](https://kenanbek.gitbook.io/codervlogger/).
+Check [YouTube](https://youtube.com/codervlogger) and [Website](https://www.codervlogger.com/).
 
 ---
 
+### CodeKN.com
+
+CodeKN started as an experiment to learn more about Kubernetes, Golang, and distributed systems. Now, it contains a website and backend system. BE is responsible for fetching web pages, parsing them, and categorizing them. I also had a chance to try a very simple Machine Learning model to identify the article's topic. Everything runs on managed Kubernetes. I use MySQL as persistent storage.
+
+The website is out of service now, but you can check some of my coding sessions recorded for this project [on YouTube](https://www.youtube.com/watch?v=G7SBHyoMJ3Y&list=PLxa49UnOmIzqo9FJFweZdzlft10-OkiDt) if you are interested.
+
+---

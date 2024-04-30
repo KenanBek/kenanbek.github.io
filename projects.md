@@ -14,6 +14,14 @@ List of some of my publicly available projects.
 
 ---
 
+### AI Editor
+
+Privacy-first desktop application for LLMs and AI APIs (MacOS, Windows, and Linux).
+
+Learn more about [AI Editor](https://www.appbaza.com/aieditor).
+
+---
+
 ### dbui
 
 Universal Database CLI for MySQL, PostgreSQL, SQLite. Terminal User Interface Application.

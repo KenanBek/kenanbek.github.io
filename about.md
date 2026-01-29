@@ -16,12 +16,14 @@ I have developed applications in various domains, including payments, telecommun
 
 As a hobby, I run a small indie software company [AppBaza.com](https://appbaza.com), building cross-platform applications, workflow management solutions, and AI integrations. Some of my projects include:
 
-- [maxDEV](https://appbaza.com) - A cross-platform developer productivity application with ready-to-use dev tools
+- [Dev Kit for AI](https://devkit4ai.com) - Multi-tenant SaaS platform for building and deploying AI-powered applications
 - [Aiflowly](https://aiflowly.com) - Visual AI Agent Builder and Chat UI for ChatGPT, Claude, and Gemini
+- [maxDEV](https://maxdevapp.com/) - A cross-platform developer productivity application with ready-to-use dev tools
 
 I live and work in Amsterdam, The Netherlands.
 
 ### Connect
 
 - [GitHub](https://github.com/KenanBek)
+- [Twitter](https://twitter.com/KenanBekk)
 - [LinkedIn](https://www.linkedin.com/in/KananRahimov)

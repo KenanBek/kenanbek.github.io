@@ -121,6 +121,7 @@ func (rp *Articles) ListArticles(offset, limit int) ([]Article, error) {
 
 HTML template:
 
+{% raw %}
 ```html
 <nav aria-label="...">
 	<ul class="pagination justify-content-center">
@@ -152,3 +153,4 @@ HTML template:
 	</ul>
 </nav>
 ```
+{% endraw %}
